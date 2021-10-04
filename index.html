@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">        
+    <title>KFC Clone</title>
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-top">
+            <div>
+                <a href="https://online.kfc.co.in/menu" class="kfc">
+                    <img src="Images/KFC-logo.png" alt="kfc-logo" style="width:90px;">
+                </a>
+            </div>
+            <div class="sign-in">
+                <a class="sign-in" href="#" >Sign In</a>
+            </div>
+        </div>
+        <div class="nav-second">
+            <div class="left">
+                <div class="delivery">
+                    <div>
+                        <input type="radio" name="option" id="del">
+                    </div>
+                    <div>
+                        <label for="del">Delivery</label>
+                    </div>
+                </div>
+                <div class="takeaway">
+                    <div>
+                        <input type="radio" name="option" id="take">
+                    </div>
+                    <div>
+                        <label for="take">Takeaway</label>
+                    </div>
+                </div>
+                <div class="dine-in">
+                    <div>
+                        <input type="radio" name="option" id="dine">
+                    </div>
+                    <div>
+                        <label for="dine">Dine-In</label>
+                    </div>
+                </div>
+
+            </div>
+            <div class="right">
+                <div class="location">
+                    <button>
+                        <a href="#">Set Location</a>
+                    </button>
+                </div>
+                <div class="search">
+                    <a href="#">
+                        <img src="Images/search_final.png" alt="search" style="width: 2em;">
+                    </a>
+                </div>
+                <div class="cart">
+                    <a href="#">
+                        <img src="Images/cart_final.png" alt="cart" style="width: 3em;">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="slider-nav">
+            <div class="image_1">
+                <a href="#">
+                    <img class="imgSl" src="Images/Nav_Img/img_1.JPG" alt="#">
+                </a>
+            </div>
+            <div class="image_2">
+                <a href="#">
+                    <img class="imgSl" src="Images/Nav_Img/img_2.JPG" alt="#">
+                </a>
+            </div>
+            <div class="image_3">
+                <a href="#">
+                    <img class="imgSl" src="Images/Nav_Img/img_3.JPG" alt="#">
+                </a>
+            </div>
+        </div>
+        <aside class="offer-sec">
+            <div class="top-sec">
+                <img src="Images/Nav_Img/Offer_img.JPG" alt="#">
+                <p>Recommended for you</p>
+            </div>
+            <div class="bottom-sec">
+                <div class="bottom-sect-top">
+                    <img src="Images/bottom-sec.jpg" alt="#">
+                </div>
+                <div class="bottom-sect-bottom">
+                    <div>
+                        <img src="" alt="">
+                        <span> KFC Favourites</span>
+                    </div>
+                    <div>
+                        <div class="money">
+                            ₹ 399
+                        </div>
+                        <div>
+                            <button class="add-buttn">
+                                <a href="">ADD</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <div class="main-sec">
+            <div class="menu">
+                Menu
+            </div>
+            <div class="menu-grid">
+                <div class="menu-items box1">
+                    Chicken
+                </div>
+                <div class="menu-items box2">
+                    Deals
+                </div>
+                <div class="menu-items box3">
+                    Burgers
+                </div>
+                <div class="menu-items box4">
+                    Rice Bowlz
+                </div>
+                <div class="menu-items box5">
+                    Snacks
+                </div>
+                <div class="menu-items box6">
+                    Beverages
+                </div>
+                <div class="menu-items box7">
+                    Exclusives
+                </div>
+            </div>
+        </div>
+        <div class="offer-section">
+            <div class="offer">
+                Offers
+            </div>
+            <div class="offer-main-sec">
+                <div class="offer-avail">
+                    <div class="upper" id="up-b1">
+                        <p>10 PC Hot Wings</p> 
+                        <p>
+                            <span style="text-decoration: line-through rgba(37, 37, 37, 0.938);">₹375</span> @ ₹250
+                        </p>
+                        <p>on order value of ₹399 more</p>
+                    </div>
+                    <div class="bottom">
+                        <p>KFCDHW</p>
+                        <button>Avail Coupon</button>
+                    </div>
+                </div>
+                <div class="offer-avail">
+                    <div class="upper" id="up-b2">
+                        <p>Free Chicken</p>
+                        <p>Zinger</p>
+                        <p>Min order value of ₹399</p>
+                    </div>
+                    <div class="bottom">
+                        <p>CHKZINGER</p>
+                        <button>Avail Coupon</button>
+                    </div>
+                </div>
+                <div class="offer-avail">
+                    <div class="upper" id="up-b3">
+                        <p>Free</p>
+                        <p>Veg Zinger</p>
+                        <p>Min order value of ₹399</p>
+                    </div>
+                    <div class="bottom">
+                        <p>VEGZINGER</p>
+                        <button>Avail Coupon</button>
+                    </div>
+                </div>
+                <div class="offer-avail">
+                    <div class="upper" id="up-b4">
+                        <p>2 pc</p>
+                        <p>Hot & Crispy</p>
+                        <p>@ ₹99</p>
+                        <p>on 2<sup>nd</sup> and 3<sup>rd</sup> Order</p>
+                    </div>
+                    <div class="bottom">
+                        <p>ADDCHK99</p>
+                        <button>Avail Coupon</button>
+                    </div>
+                </div>
+                <div class="offer-avail">
+                    <div class="upper" id="up-b5">
+                        <p>Upto</p>
+                        <p>₹100 OFF</p>
+                        <p>on bill value of ₹500 or more</p>
+                    </div>
+                    <div class="bottom">
+                        <p>BIGSAVE</p>
+                        <button>Avail Coupon</button>
+                    </div>
+                </div>
+            </div>
+            <div class="airtel-offer">
+                <div class="left-airtel">
+                    <a href="#">
+                        <img id="air" src="Images/offers/Airtel.JPG" alt=""style="width:300px; height:40px;">
+                    </a>
+                </div>
+                <div class="right-airtel">
+                    <div class="right-at">
+                        <div>GET 10% CASHBACK UPTO ₹100</div>
+                        <div>VALID FOR FIRST TIME USER AND MIN TRX VALUE OF ₹600</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="foot-nav-first">
+                <div class="foot-left-1">
+                    <div class="foot-1">
+                        <a href="">About KFC</a>
+                    </div>
+                    <div class="foot-1">
+                        <a href="">Gift Card</a>
+                    </div>
+                    <div class="foot-1">
+                        <a href="">Feedback</a>
+                    </div>
+                    <div class="foot-1">
+                        <a href="">Contact Us</a>
+                    </div>
+                    <div class="foot-1">
+                        <a href="">Brand T & C</a>
+                    </div>
+                    <div class="foot-1">
+                        <a href="">Offers T & C</a>
+                    </div>
+                    <div class="foot-1">
+                        <a href="">Site Map</a>
+                    </div>
+                    <div class="foot-1">
+                        <a href="">Find a KFC</a>
+                    </div>
+                </div>
+                <div class="foot-right-1">
+                    <div class="fooot-1">
+                        <a href="">
+                            <img src="Images/Footer/iconmonstr-save-9-240.png" alt="#" style="width:40px;">
+                        </a>
+                    </div>
+                    <div class="fooot-1">
+                        <a href="">
+                            <img src="Images/Footer/new_playstore.png" alt="#" style="width:40px;">
+                        </a>
+                    </div>
+                    <div class="fooot-1">
+                        <a href="">
+                            <img src="Images/Footer/iconmonstr-apple-os-4-240.png" alt="#" style="width:40px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="foot-nav-second">
+                <div class="foot-left-2">
+                    <div class="foot-2">
+                        <a href="https://www.instagram.com">
+                            <img src="Images/Footer/iconmonstr-instagram-13-240.png" alt="#" style="width:40px;">
+                        </a>
+                    </div>
+                    <div class="foot-2">
+                        <a href="https://www.facebook.com">
+                            <img src="Images/Footer/iconmonstr-facebook-3-240.png" alt="" style="width:40px;">
+                        </a>
+                    </div>
+                    <div class="foot-2">
+                        <a href="https://www.youtube.com">
+                            <img src="Images/Footer/iconmonstr-youtube-8-240.png" alt="" style="width:40px;">
+                        </a>
+                    </div>
+                </div>
+                <div class="foot-right-2">
+                    <div>
+                        <p>© Copyright 2021 KFC.</p>
+                    </div>
+                    <div>
+                        <p>All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="para">
+                <div>Food shown are for illustration purpose only. Actual product may differ from the images shown in this website. Our menu prices are now inclusive of GST.* The KFC name, logos, and related marks are trademarks of KFC, Inc. All chicken products contain Monosodium Glutamate. Not recommended for infants below 12 months.</div>
+            </div>
+            <div class="lowest">
+                <div class="low">
+                                                               <!--Last three blocks-->
+                </div>
+                <div class="low">
+                    
+                </div>
+                <div class="low">
+                    
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
